@@ -1,20 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="14fb9fe5-a8ad-489a-8b58-d2bbd48d536e" name="Default Changelist" comment="" />
+    <list default="true" id="14fb9fe5-a8ad-489a-8b58-d2bbd48d536e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/http/dto/mascota.create-dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/http/dto/mascota.create-dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/http/http-juego.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/http/http-juego.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/main.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1eSje97TMaA1W3cD0fMewFg1loc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ts.external.directory.path" value="D:\UNIVERSIDAD\Semestre VII\WEB\wb-andrade-valladares-carlos-felipe\01-http\introduccion\node_modules\typescript\lib" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14fb9fe5-a8ad-489a-8b58-d2bbd48d536e" name="Default Changelist" comment="" />
+      <created>1594322003301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594322003301</updated>
+      <workItem from="1594322072305" duration="179000" />
+      <workItem from="1594322304127" duration="5615000" />
+      <workItem from="1594407314383" duration="4623000" />
+      <workItem from="1595480262135" duration="2604000" />
+      <workItem from="1595517117909" duration="5340000" />
+    </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="292" y="124" key="FileChooserDialogImpl" timestamp="1594322288772">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="292" y="124" key="FileChooserDialogImpl/0.0.1024.738/1024.0.1280.690@0.0.1024.738" timestamp="1594322288772" />
+    <state x="175" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1595480348788">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="175" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1024.738/1024.0.1280.690@0.0.1024.738" timestamp="1595480348788" />
   </component>
 </project>
