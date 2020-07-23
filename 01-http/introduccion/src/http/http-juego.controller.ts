@@ -9,7 +9,8 @@ import {
     Param,
     Query,
     Body,
-    Res, Req
+    Res, Req,
+    Headers
 } from '@nestjs/common';
 import {MascotaCreateDto} from "./dto/mascota.create-dto";
 import {tryCatch} from "rxjs/internal-compatibility";
@@ -123,5 +124,50 @@ export class HttpJuegoController{
 
     }
 
+    @Get('guardarCookieSegura')
+    guardarCookieSegura(
+        @Query()  parametosConsulta,
+        @Req() req,
+        @Res() res
+    ){
+        res.cookie(
+            'galletaSegura',
+            'Web :3',
+            {
+                secure:true
+            }
+        );
+        const  mensaje ={
+            mensaje:'ok'
+        };
+        res.send(mensaje);
+
+    }
+
+    @Get('mostrarCookies')
+    mostrarCookies(
+        @Req() req
+    ){
+        const mensaje = {
+            sinfirmar: req.cookies,
+            firmadas: req.signedCookies
+        };
+        return mensaje;
+    }
+
+    @Get('guardarCookieFirmada')
+    public guardarcookieFirmada(
+        @Res() res,
+        @Headers() headers // peticion - request
+    ){
+        console.log('Headers', headers);
+        res.header('Cabecera', 'Dinamica');  //respuesta- response
+
+        res.cookie('Firmada', 'Poliburger',{signed: true});
+        const mensaje = {
+            mensaje: 'ok'
+        };
+        res.send(mensaje);
+    }
 
 }

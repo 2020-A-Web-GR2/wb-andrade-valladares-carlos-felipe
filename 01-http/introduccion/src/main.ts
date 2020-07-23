@@ -10,7 +10,7 @@ async function bootstrap() {
   * 
   * */
   //await app.listen(3000);
-  app.use(cookieParser())
+  app.use(cookieParser('E agradan los poliperros'))
   await app.listen(3001);
 }
 bootstrap();
