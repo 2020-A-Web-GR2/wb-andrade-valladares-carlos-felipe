@@ -21,9 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="14fb9fe5-a8ad-489a-8b58-d2bbd48d536e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/http/dto/mascota.create-dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/http/dto/mascota.create-dto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/http/http-juego.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/http/http-juego.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/main.ts" afterDir="false" />
     </list>
@@ -70,6 +67,7 @@
       <workItem from="1594407314383" duration="4623000" />
       <workItem from="1595480262135" duration="2604000" />
       <workItem from="1595517117909" duration="5340000" />
+      <workItem from="1595526781993" duration="2604000" />
     </task>
     <servers />
   </component>
