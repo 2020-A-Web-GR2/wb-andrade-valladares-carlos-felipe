@@ -13,7 +13,6 @@ import {
     Headers
 } from '@nestjs/common';
 import {MascotaCreateDto} from "./dto/mascota.create-dto";
-import {tryCatch} from "rxjs/internal-compatibility";
 import {validate, ValidationError} from "class-validator";
 
 
