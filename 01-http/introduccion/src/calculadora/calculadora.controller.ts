@@ -13,6 +13,7 @@ import {
     BadRequestException
 } from "@nestjs/common";
 import {IsNumber, validate, ValidationError} from "class-validator";
+// @ts-ignore
 import {CalculadoraCreateDto} from "./dto.calculadora/calculadora.create-dto";
 
 

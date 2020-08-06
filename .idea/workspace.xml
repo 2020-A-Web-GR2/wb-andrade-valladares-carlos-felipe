@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14fb9fe5-a8ad-489a-8b58-d2bbd48d536e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/calculadora/dto.calculadora/calculadora.create-dto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/calculadora/calculadora.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/calculadora/calculadora.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/calculadora/calculadora.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/calculadora/calculadora.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/calculadora/calculadora.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/calculadora/calculadora.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/http/http-juego.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/http/http-juego.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/calculadora/dto.calculadora/calculadora.create-dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/calculadora/dto.calculadora/calculadora.create-dto.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +71,7 @@
       <workItem from="1595526781993" duration="7320000" />
       <workItem from="1596219063974" duration="2467000" />
       <workItem from="1596546355964" duration="2686000" />
-      <workItem from="1596676974914" duration="23300000" />
+      <workItem from="1596676974914" duration="25017000" />
     </task>
     <servers />
   </component>
