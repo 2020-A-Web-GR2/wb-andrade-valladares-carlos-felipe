@@ -17,4 +17,12 @@ export class UsuarioService{
         return this.repositorio.save(nuevoUsuario)
     }
 
+    buscarTodos(){
+        return this.repositorio.find()
+    }
+
+    buscarUno( id: number){
+        return this.repositorio.findOne(id)
+    }
+
 }

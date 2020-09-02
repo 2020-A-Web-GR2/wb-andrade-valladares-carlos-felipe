@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14fb9fe5-a8ad-489a-8b58-d2bbd48d536e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/dto/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/dto/usuario.create-dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/dto/usuario.update-dto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/calculadora/dto.calculadora/calculadora.create-dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/calculadora/dto.calculadora/calculadora.create-dto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.entity.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,13 @@
       <workItem from="1596219063974" duration="2467000" />
       <workItem from="1596546355964" duration="2686000" />
       <workItem from="1596676974914" duration="25190000" />
-      <workItem from="1597282068683" duration="6635000" />
+      <workItem from="1597282068683" duration="6798000" />
+      <workItem from="1597300193064" duration="83000" />
+      <workItem from="1597425347860" duration="914000" />
+      <workItem from="1598563335050" duration="4183000" />
+      <workItem from="1598622665632" duration="4783000" />
+      <workItem from="1599022065565" duration="3102000" />
+      <workItem from="1599066236019" duration="5263000" />
     </task>
     <servers />
   </component>
@@ -102,6 +107,10 @@
       <screen x="1024" y="0" width="1280" height="690" />
     </state>
     <state x="1118" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1024.738/1024.0.1280.690@1024.0.1280.690" timestamp="1596707211236" />
+    <state x="276" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599071217919">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="276" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1024.738/1024.0.1280.690@0.0.1024.738" timestamp="1599071217919" />
     <state x="1411" y="200" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596707100327">
       <screen x="1024" y="0" width="1280" height="690" />
     </state>
