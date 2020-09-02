@@ -8,10 +8,10 @@ import {Column, Entity, Index, PrimaryGeneratedColumn} from "typeorm";
     'fechaNacimiento'
 ])
 
-@Index(['nombre', 'apellido', 'cedula'],
-    {unique: true}
-    )
-@Entity('db_usuario') //nombre de la tabla usuario
+//@Index(['nombre', 'apellido', 'cedula'],
+  //  {unique: true}
+    //)
+@Entity('epn_usuario') //nombre de la tabla usuario
 export class UsuarioEntity {
     @PrimaryGeneratedColumn({
         unsigned: true,
