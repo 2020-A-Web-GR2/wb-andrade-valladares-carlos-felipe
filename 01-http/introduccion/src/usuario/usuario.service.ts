@@ -25,4 +25,12 @@ export class UsuarioService{
         return this.repositorio.findOne(id)
     }
 
+    editarUno( usuarioEditado: UsuarioEntity){
+        return this.repositorio.save(usuarioEditado);
+    }
+
+    eliminarUno( id: number){
+        return this.repositorio.delete(id);
+    }
+
 }

@@ -107,28 +107,58 @@ export class UsuarioController {
     }
 
     @Put(':id')
-    editarUno(
+    async editarUno(
         @Param() parametrosRuta,
         @Body() parametrosCuerpo
     ){
-        const indice = this.arregloUsuarios.findIndex(
-            (usuario) => usuario.id === Number(parametrosRuta.id)
-        )
-        this.arregloUsuarios[indice].nombre = parametrosCuerpo.nombre;
-        return this.arregloUsuarios[indice];
+        const id = Number(parametrosRuta.id);
+        const usuarioEditado = parametrosCuerpo;
+        usuarioEditado.id= id;
+
+        try {
+            console.log('usuarioEditado', usuarioEditado)
+            const repuesta = await this._usuarioService.editarUno(usuarioEditado);
+            return repuesta;
+        } catch (e) {
+            console.error(e);
+            throw new BadRequestException({
+                mensaje: 'Error del servidor'
+            });
+
+        }
+
+
+
+        // const indice = this.arregloUsuarios.findIndex(
+        //     (usuario) => usuario.id === Number(parametrosRuta.id)
+        // )
+        // this.arregloUsuarios[indice].nombre = parametrosCuerpo.nombre;
+        // return this.arregloUsuarios[indice];
 
     }
 
     @Delete(':id')
-    eliminarUno(
+    async eliminarUno(
         @Param() parametrosRuta
     ){
-        const indice = this.arregloUsuarios.findIndex(
-            (usuario) => usuario.id === Number(parametrosRuta.id)
-        )
-        this.arregloUsuarios.splice(indice, 1)
-        return this.arregloUsuarios[indice];
+
+        const id = Number(parametrosRuta.id);
+        try {
+            const repuesta = await this._usuarioService.eliminarUno(id);
+            return {mensaje: 'Registro con id: '+ id + 'eliminado'};
+        } catch (e) {
+            console.error(e);
+            throw new BadRequestException({
+                mensaje: 'Error del servidor'
+            });
+
+        // const indice = this.arregloUsuarios.findIndex(
+        //     (usuario) => usuario.id === Number(parametrosRuta.id)
+        // )
+        // this.arregloUsuarios.splice(indice, 1)
+        // return this.arregloUsuarios[indice];
 
     }
 
+}
 }
