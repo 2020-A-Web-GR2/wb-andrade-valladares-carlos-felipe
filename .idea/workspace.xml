@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14fb9fe5-a8ad-489a-8b58-d2bbd48d536e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/dto/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/dto/usuario.create-dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/dto/usuario.update-dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/mascota/mascota.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/mascota/mascota.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/mascota/mascota.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/vacuna/vacuna.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/vacuna/vacuna.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.controller.ts" afterDir="false" />
@@ -83,7 +85,8 @@
       <workItem from="1598563335050" duration="4183000" />
       <workItem from="1598622665632" duration="4783000" />
       <workItem from="1599022065565" duration="3102000" />
-      <workItem from="1599066236019" duration="5263000" />
+      <workItem from="1599066236019" duration="5718000" />
+      <workItem from="1599086340180" duration="9019000" />
     </task>
     <servers />
   </component>
