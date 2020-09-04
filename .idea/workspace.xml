@@ -20,16 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14fb9fe5-a8ad-489a-8b58-d2bbd48d536e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/mascota/mascota.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/mascota/mascota.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/mascota/mascota.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/vacuna/vacuna.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/vacuna/vacuna.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/views/ejemplo.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/mascota/mascota.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/mascota/mascota.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.entity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +84,8 @@
       <workItem from="1598622665632" duration="4783000" />
       <workItem from="1599022065565" duration="3102000" />
       <workItem from="1599066236019" duration="5718000" />
-      <workItem from="1599086340180" duration="9019000" />
+      <workItem from="1599086340180" duration="9232000" />
+      <workItem from="1599188914124" duration="7571000" />
     </task>
     <servers />
   </component>

@@ -24,6 +24,5 @@ import {MascotaService} from "./mascota.service";
     ]
 })
 
-export class MascotaModule {
+export class MascotaModule {}
 
-}
