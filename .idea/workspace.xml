@@ -20,14 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14fb9fe5-a8ad-489a-8b58-d2bbd48d536e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-http/introduccion/views/ejemplo.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/publico/condiciones-uso.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/publico/css/estilos-generales.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/publico/imagen-bienvenida.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/publico/js/logica-general.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/mascota/mascota.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/mascota/mascota.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/views/ejemplo.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/views/ejemplo.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -85,7 +84,8 @@
       <workItem from="1599022065565" duration="3102000" />
       <workItem from="1599066236019" duration="5718000" />
       <workItem from="1599086340180" duration="9232000" />
-      <workItem from="1599188914124" duration="7571000" />
+      <workItem from="1599188914124" duration="7836000" />
+      <workItem from="1600662452052" duration="5770000" />
     </task>
     <servers />
   </component>
