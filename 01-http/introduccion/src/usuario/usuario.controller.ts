@@ -244,11 +244,20 @@ export class UsuarioController {
 
 
     @Get('vista/inicio')
-    inicio(
+    async inicio(
         @Res() res
     ){
-
-        res.render('usuario/inicio')
+        let resultadoEncontrado
+        try {
+            resultadoEncontrado = await this._usuarioService.buscarTodos();
+        } catch (erroe) {
+            throw new InternalServerErrorException('Error encontrando usuarios')
+        }
+        if (resultadoEncontrado) {
+            res.render('usuario/inicio', {arregloUsuarios: resultadoEncontrado});
+        } else {
+            throw new NotFoundException('No se encontraron usuarios')
+        }
 
     }
 
@@ -258,6 +267,15 @@ export class UsuarioController {
     ){
 
         res.render('usuario/login')
+
+    }
+
+    @Get('vista/crear')
+    crearUsuarioVista(
+        @Res() res
+    ){
+
+        res.render('usuario/crear')
 
     }
 }
