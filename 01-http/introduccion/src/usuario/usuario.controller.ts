@@ -14,8 +14,6 @@ import {MascotaService} from "../mascota/mascota.service";
 import {tsconfigPathsBeforeHookFactory} from "@nestjs/cli/lib/compiler/hooks/tsconfig-paths.hook";
 import {UsuarioEntity} from "./usuario.entity";
 
-
-
 @Controller('usuario')
 export class UsuarioController {
     public arregloUsuarios = [
@@ -247,11 +245,11 @@ export class UsuarioController {
     }
 
 
-    @Get('vista/inicio')
+   @Get('vista/inicio')
     async inicio(
-        @Query() parametrosConsulta,
-        @Res() res
-    ){
+        @Res() res,
+        @Query() parametrosConsulta
+    ) {
         let resultadoEncontrado
         try {
             resultadoEncontrado = await this._usuarioService.buscarTodos(parametrosConsulta.busqueda);
@@ -259,11 +257,15 @@ export class UsuarioController {
             throw new InternalServerErrorException('Error encontrando usuarios')
         }
         if (resultadoEncontrado) {
-            res.render('usuario/inicio', {arregloUsuarios: resultadoEncontrado, parametrosConsulta: parametrosConsulta });
+            res.render(
+                'usuario/inicio',
+                {
+                    arregloUsuarios: resultadoEncontrado,
+                    parametrosConsulta: parametrosConsulta
+                });
         } else {
             throw new NotFoundException('No se encontraron usuarios')
         }
-
     }
 
     @Get('vista/login')
@@ -290,38 +292,33 @@ export class UsuarioController {
 
     }
 
-    @Get('vista/editar/:id')
+    @Get('vista/editar/:id') // Controlador
     async editarUsuarioVista(
         @Query() parametrosConsulta,
         @Param() parametrosRuta,
         @Res() res
     ) {
         const id = Number(parametrosRuta.id)
-        let usuarioencontrado;
+        let usuarioEncontrado;
         try {
-            usuarioencontrado = await this._usuarioService.buscarUno(id);
+            usuarioEncontrado = await this._usuarioService.buscarUno(id);
         } catch (error) {
             console.error('Error del servidor');
-            return res.redirect('/usuario/vista/inicio?mensaje=Error Buscando Usuario');
-
+            return res.redirect('/usuario/vista/inicio?mensaje=Error buscando usuario');
         }
-        if (usuarioencontrado){
-            return res.render('usuario/crear', {
-                error: parametrosConsulta.error,
-                usuario: usuarioencontrado
-            })
-
-        }else {
+        if (usuarioEncontrado) {
+            return res.render(
+                'usuario/crear',
+                {
+                    error: parametrosConsulta.error,
+                    usuario: usuarioEncontrado
+                }
+            )
+        } else {
             return res.redirect('/usuario/vista/inicio?mensaje=Usuario no encontrado');
         }
 
-
-
     }
-
-
-
-
 
     @Post('crearDesdeVista')
     async crearDesdeVista(
@@ -359,6 +356,28 @@ export class UsuarioController {
         }
     }
 
+    @Post('editarDesdeVista/:id')
+    async editarDesdeVista(
+        @Param() parametrosRuta,
+        @Body() parametrosCuerpo,
+        @Res() res,
+    ) {
+        const usuarioEditado = {
+            id: Number(parametrosRuta.id),
+            nombre: parametrosCuerpo.nombre,
+            apellido: parametrosCuerpo.apellido,
+            // cedula: parametrosCuerpo.cedula,
+        } as UsuarioEntity;
+        try {
+            await this._usuarioService.editarUno(usuarioEditado);
+            return res.redirect('/usuario/vista/inicio?mensaje=Usuario editado');
+        }catch (error) {
+            console.error(error);
+            return res.redirect('/usuario/vista/inicio?mensaje=Error editando usuario');
+        }
+
+    }
+
     @Post('eliminarDesdeVista/:id')
    async eliminarDesdeVista(
        @Param() parametrosRuta,
@@ -375,27 +394,5 @@ export class UsuarioController {
         }
         
         
-    }
-
-    @Post('editarDesdeVista/:id')
-    async editarDesdeVista(
-        @Param() parametrosRuta,
-        @Body() parametrosCuerpo,
-        @Res( ) res,
-    ){
-        const usuarioEditado = {
-            id: Number(parametrosRuta.id),
-            nombre: parametrosCuerpo.nombre,
-            apellido: parametrosCuerpo.apellido,
-            //cedula: parametrosCuerpo.cedula,
-        } as UsuarioEntity;
-        try {
-            await this._usuarioService.editarUno(usuarioEditado);
-            return res.redirect('/usuario/vista/inicio?mensaje=Usuario editado');
-        } catch (error) {
-            console.error(error);
-            return res.redirect('/usuario/vista/inicio?mensaje=Error editando usuario');
-
-        }
     }
 }

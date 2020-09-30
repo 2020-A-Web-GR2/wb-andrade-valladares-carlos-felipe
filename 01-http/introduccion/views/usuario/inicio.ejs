@@ -20,45 +20,46 @@
         <li><%= objeto %></li>
     <% } ) %>
 </ul>
-
-
 <a href="/usuario/vista/crear">
     <button>Crear</button>
 </a>
-
-<%if (typeof parametrosConsulta != 'undefined') {%>
-    <p>MENSAJE: <%= parametrosConsulta.mensaje %></p>
+<%if(typeof parametrosConsulta != 'undefined') {%>
+    <p>MENSAJE: <%= parametrosConsulta.mensaje%></p>
 <%}%>
 
-<form action="/usuario/vista/inicio" method="GET">
+<form action="/usuario/vista/inicio"
+      method="GET">
     <label for="busqueda">Busqueda:</label>
     <input id="busqueda" type="text" name="busqueda">
-    <button type="submit">Buscar</button>
+    <button type="submit"> Buscar</button>
 </form>
 
 <table>
+    <!--table row-->
     <tr>
+        <!--table header-->
         <th>Nombre</th>
         <th>Apellido</th>
         <th>Cedula</th>
         <th>Acciones</th>
     </tr>
-    <% arregloUsuarios.forEach((objeto)=> {%>
+    <% arregloUsuarios.forEach( (objeto)=>{ %>
         <tr>
-            <td><%=objeto.nombre%></td>
-            <td><%=objeto.apellido%></td>
-            <td><%=objeto.cedula%></td>
+            <td><%= objeto.nombre %></td>
+            <td><%= objeto.apellido %></td>
+            <td><%= objeto.cedula %></td>
             <td>
                 <button>Ver</button>
-                <a href="/usuario/vista/editar/<%= objeto.id%>">
+                <a href="/usuario/vista/editar/<%= objeto.id %>">
                     <button>Editar</button>
                 </a>
-
-                <form action="/usuario/eliminarDesdeVista/<%= objeto.id %>" method="post">
+                <!--                 GET /usuario/vista/editar/:id-->
+                <form action="/usuario/eliminarDesdeVista/<%= objeto.id %>"
+                      method="POST"
+                >
+                    <!--                    POST /usuario/eliminarDesdeVista/:id -->
                     <button type="submit">Eliminar</button>
-
                 </form>
-
             </td>
         </tr>
     <% } ) %>
