@@ -10,6 +10,8 @@ import {MascotaModule} from "./mascota/mascota.module";
 import {VacunaModule} from "./vacuna/vacuna.module";
 import {VacunaEntity} from "./vacuna/vacuna.entity";
 import {MascotaEntity} from "./mascota/mascota.entity";
+import {BibliotecaEntity} from "./biblioteca/biblioteca.entity";
+import {BibliotecaModule} from "./biblioteca/biblioteca.module";
 
 @Module({
   imports: [
@@ -17,6 +19,7 @@ import {MascotaEntity} from "./mascota/mascota.entity";
       UsuarioModule,
       MascotaModule,
       VacunaModule,
+      BibliotecaModule,
       TypeOrmModule.forRoot({
           name: 'default', // nombre de la conexion
           type: 'mysql', // ,ysql postgres
@@ -29,6 +32,7 @@ import {MascotaEntity} from "./mascota/mascota.entity";
               UsuarioEntity,
               VacunaEntity,
               MascotaEntity,
+              BibliotecaEntity,
 
           ],
           synchronize: true, //ACTUALIZA EL ESQUEMA DE LA BASE DE DATOS.

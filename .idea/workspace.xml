@@ -20,25 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14fb9fe5-a8ad-489a-8b58-d2bbd48d536e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/sessions/ChsYeweHbcb04Zjwpfi0nm6kKvA44LHT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/sessions/J2IftTAKdJnmDJcyuIa-_cl6tVlHa5jh.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/sessions/PpRpzDod7VmNbbwGNFQy6dmbKvSYgDSC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/sessions/mzyuMZRa0u8-0DGhdEyDX6G1xcN9aqPv.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/sessions/roA7FMPDE5ZtT5JGgW2uHcVnABM6ekD5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/sessions/yF0g5u-vXeLXQejycE--xWOxJU-gGDRC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/biblioteca/biblioteca.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/biblioteca/biblioteca.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/biblioteca/biblioteca.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/biblioteca/biblioteca.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/src/biblioteca/dto/biblioteca.create-dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/views/biblioteca/crear.biblioteca.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-http/introduccion/views/biblioteca/inicio.biblioteca.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-http/introduccion/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-http/introduccion/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/sessions/aa3ZU6T6vBioLwEm4Kw1pyKupUsA7CKF.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/publico/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/publico/css/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/publico/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/publico/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/publico/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/publico/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/mascota/mascota.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/mascota/mascota.entity.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/views/usuario/crear.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/views/usuario/crear.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/introduccion/views/usuario/inicio.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/views/usuario/inicio.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-html/css/botones.css" beforeDir="false" afterPath="$PROJECT_DIR$/02-html/css/botones.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-html/css/completo.css" beforeDir="false" afterPath="$PROJECT_DIR$/02-html/css/completo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-html/css/completo.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/02-html/css/completo.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-html/css/estilos-generales.css" beforeDir="false" afterPath="$PROJECT_DIR$/02-html/css/estilos-generales.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-html/css/tablas.css" beforeDir="false" afterPath="$PROJECT_DIR$/02-html/css/tablas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-html/js/completo.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-html/js/completo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-html/js/completo.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-html/js/completo.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-html/js/formularios.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-html/js/formularios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-html/js/funcionalidad.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-html/js/funcionalidad.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-html/js/tablas.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-html/js/tablas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/usuario/usuario.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/src/vacuna/vacuna.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/src/vacuna/vacuna.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/views/compartido/menu/menu-component.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/views/compartido/menu/menu-component.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/views/login/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/views/login/login.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/introduccion/views/login/protegido.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/introduccion/views/login/protegido.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-html/bootstrap/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-html/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-html/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-html/bootstrap/js/bootstrap.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +59,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -57,16 +68,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eSje97TMaA1W3cD0fMewFg1loc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/01-http/introduccion/publico/js" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="ts.external.directory.path" value="D:\UNIVERSIDAD\Semestre VII\WEB\wb-andrade-valladares-carlos-felipe\01-http\introduccion\node_modules\typescript\lib" />
   </component>
@@ -110,7 +125,7 @@
       <workItem from="1600662452052" duration="5770000" />
       <workItem from="1600726475187" duration="7870000" />
       <workItem from="1600817508935" duration="13525000" />
-      <workItem from="1601507444741" duration="2509000" />
+      <workItem from="1601507444741" duration="27840000" />
     </task>
     <servers />
   </component>
@@ -129,6 +144,9 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1118" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596707211236">
       <screen x="1024" y="0" width="1280" height="690" />
@@ -138,23 +156,27 @@
       <screen x="0" y="0" width="1024" height="738" />
     </state>
     <state x="276" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1024.738/1024.0.1280.690@0.0.1024.738" timestamp="1599071217919" />
-    <state x="1411" y="200" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596707100327">
+    <state x="1411" y="200" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601526666944">
       <screen x="1024" y="0" width="1280" height="690" />
     </state>
-    <state x="1411" y="200" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1024.738/1024.0.1280.690@1024.0.1280.690" timestamp="1596707100327" />
+    <state x="1411" y="200" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1024.738/1024.0.1280.690@1024.0.1280.690" timestamp="1601526666944" />
     <state x="292" y="124" key="FileChooserDialogImpl" timestamp="1594322288772">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
     <state x="292" y="124" key="FileChooserDialogImpl/0.0.1024.738/1024.0.1280.690@0.0.1024.738" timestamp="1594322288772" />
-    <state x="122" y="187" key="run.anything.popup" timestamp="1600841785665">
-      <screen x="0" y="0" width="1024" height="738" />
+    <state x="1387" y="116" key="refactoring.ChangeSignatureDialog" timestamp="1601526056050">
+      <screen x="1024" y="0" width="1280" height="690" />
+    </state>
+    <state x="1387" y="116" key="refactoring.ChangeSignatureDialog/0.0.1024.738/1024.0.1280.690@1024.0.1280.690" timestamp="1601526056050" />
+    <state x="1320" y="153" key="run.anything.popup" timestamp="1601537884601">
+      <screen x="1024" y="0" width="1280" height="690" />
     </state>
     <state x="122" y="187" key="run.anything.popup/0.0.1024.738/1024.0.1280.690@0.0.1024.738" timestamp="1600841785665" />
-    <state x="1320" y="153" key="run.anything.popup/0.0.1024.738/1024.0.1280.690@1024.0.1280.690" timestamp="1596694838141" />
-    <state x="1243" y="55" width="840" height="634" key="search.everywhere.popup" timestamp="1596701137745">
+    <state x="1320" y="153" key="run.anything.popup/0.0.1024.738/1024.0.1280.690@1024.0.1280.690" timestamp="1601537884601" />
+    <state x="1243" y="55" width="840" height="634" key="search.everywhere.popup" timestamp="1601525523755">
       <screen x="1024" y="0" width="1280" height="690" />
     </state>
     <state x="175" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1024.738/1024.0.1280.690@0.0.1024.738" timestamp="1595480348788" />
-    <state x="1243" y="55" width="840" height="634" key="search.everywhere.popup/0.0.1024.738/1024.0.1280.690@1024.0.1280.690" timestamp="1596701137745" />
+    <state x="1243" y="55" width="840" height="634" key="search.everywhere.popup/0.0.1024.738/1024.0.1280.690@1024.0.1280.690" timestamp="1601525523755" />
   </component>
 </project>

@@ -10,9 +10,9 @@ export class VacunaEntity {
     @Column()
     nombre: string;
 
-    @ManyToOne(
-        type => MascotaEntity,
-        mascota => mascota.vacunas
-    )
-    mascota: MascotaEntity
+    // @ManyToOne(
+    //     type => MascotaEntity,
+    //     mascota => mascota.vacunas
+    // )
+    // mascota: MascotaEntity
 }

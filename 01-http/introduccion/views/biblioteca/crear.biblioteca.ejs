@@ -1,0 +1,72 @@
+<%- include('../compartido/estilos-generales/estilos-generales-component')%>
+<%- include('../compartido/menu/menu-component')%>
+
+<!-- biblioteca/crear.biblioteca.ejs-->
+<% const existeBiblioteca = typeof biblioteca != 'undefined'%>
+
+<% let existeNombre = typeof nombre !== 'undefined' %>
+<% let existeDireccion = typeof direccion !== 'undefined' %>
+<% let existeCategoriaLibros= typeof categoria_libros !== 'undefined' %>
+<% let existeNumeroClientes = typeof numero_clientes !== 'undefined' %>
+<% let existeEstado = typeof estado !== 'undefined' %>
+
+
+<h1> <%= existeBiblioteca ? 'Editar' : 'Crear'%> Biblioteca</h1>
+<!-- Setear los datos para editar-->
+<%if(existeBiblioteca){%>
+
+    <% existeNombre = true %>
+    <% existeDireccion = true %>
+    <% existeCategoriaLibros = true %>
+    <% existeNumeroClientes = true %>
+    <% existeEstado = true %>
+
+    <% nombre = biblioteca.nombre %>
+    <% direccion = biblioteca.direccion %>
+    <% categoria_libros = biblioteca.categoria_libros %>
+    <% numero_clientes = biblioteca.numero_clientes %>
+    <% estado = biblioteca.estado %>
+<%}%>
+
+
+<% if(typeof error !== 'undefined') { %>
+    <p>MENSAJE ERROR: <%= error %></p>
+<% } %>
+
+<form action="<%= existeBiblioteca ? '/biblioteca/editarDesdeVista/' + biblioteca.id : '/biblioteca/crearDesdeVista' %>"
+      method="POST">
+
+    <label for="nombreID">Nombre:</label>
+    <input id="nombreID" type="text" name="nombre" value="<%= existeNombre ? nombre : '' %>">
+    <br>
+
+    <label for="direccionID">Direccion:</label>
+    <input id="direccionID" type="text" name="direccion" value="<%= existeDireccion ? direccion : '' %>">
+    <br>
+
+    <label for="categoria_librosID">Categoria Libros:</label>
+    <input id="categoria_librosID" type="text" name="categoria_libros" value="<%= existeCategoriaLibros ? categoria_libros : '' %>">
+    <br>
+
+    <label for="numero_clientesID">Numero de clientes:</label>
+    <input id="numero_clientesID" type="text" name="numero_clientes" value="<%= existeNumeroClientes ? numero_clientes : '' %>">
+    <br>
+
+    <label for="estadoID">Estado:</label>
+    <input id="estadoID" type="text" name="estado" value="<%= existeEstado ? estado : '' %>">
+    <br>
+
+
+    <button type="submit">SUBMIT</button>
+    <button type="reset">RESET</button>
+
+    <a href="/logout">
+        <button>Logout</button>
+    </a>
+
+
+</form>
+
+
+<%- include('../compartido/funcionalidad-general/funcionalidad-general-component')%>
+

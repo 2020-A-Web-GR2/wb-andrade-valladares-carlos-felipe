@@ -11,17 +11,17 @@ export class MascotaEntity {
     nombre: string;
 
 
-    @ManyToOne(
-        type => UsuarioEntity,
-        usuario =>usuario.mascotas
-    )
-    usuario: UsuarioEntity;
-
-    @OneToMany(
-        type => VacunaEntity,
-        vacuna => vacuna.mascota
-    )
-    vacunas: VacunaEntity[];
+    // @ManyToOne(
+    //     type => UsuarioEntity,
+    //     usuario =>usuario.mascotas
+    // )
+    // usuario: UsuarioEntity;
+    //
+    // @OneToMany(
+    //     type => VacunaEntity,
+    //     vacuna => vacuna.mascota
+    // )
+    // vacunas: VacunaEntity[];
 
 
 }

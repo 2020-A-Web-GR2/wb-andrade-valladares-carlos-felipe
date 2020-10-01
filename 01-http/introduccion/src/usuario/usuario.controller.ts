@@ -9,10 +9,10 @@ import {
     Post,
     Put, Query, Res
 } from "@nestjs/common";
-import {UsuarioService} from "./usuario.service";
+
 import {MascotaService} from "../mascota/mascota.service";
-import {tsconfigPathsBeforeHookFactory} from "@nestjs/cli/lib/compiler/hooks/tsconfig-paths.hook";
 import {UsuarioEntity} from "./usuario.entity";
+import {UsuarioService} from "./usuario.service";
 
 @Controller('usuario')
 export class UsuarioController {

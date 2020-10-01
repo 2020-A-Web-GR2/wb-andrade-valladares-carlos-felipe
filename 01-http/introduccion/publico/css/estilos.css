@@ -6,3 +6,9 @@ body{
 td, th{
     border: 1px solid #dddddd;
 }
+h1{
+    color: #0c5460;
+}
+h2{
+    color: #721c24;
+}

@@ -1,0 +1,61 @@
+
+<%- include('../compartido/estilos-generales/estilos-generales-component')%>
+<%- include('../compartido/menu/menu-component')%>
+
+<h1> B I E N V E N I D O </h1>
+
+<h2>BIBLIOTECA WEB</h2>
+
+<H2> ¿QUE DESEAS HACER? </H2>
+
+<a href="/biblioteca/vista/crear">
+    <button>Crear una nueva biblioteca</button>
+</a>
+<a href="/logout">
+    <button>Logout</button>
+</a>
+<%if(typeof parametrosConsulta != 'undefined') {%>
+    <p>MENSAJE: <%= parametrosConsulta.mensaje%></p>
+<%}%>
+
+<form action="/biblioteca/vista/inicio"
+      method="GET">
+    <label for="busqueda">Busqueda:</label>
+    <input id="busqueda" type="text" name="busqueda">
+    <button type="submit"> Buscar registros</button>
+</form>
+
+<table>
+    <!--table row-->
+    <tr>
+        <!--table header-->
+        <th>Nombre</th>
+        <th>Direccion</th>
+        <th>Categoria de Libros</th>
+        <th>Numero de Clientes</th>
+        <th>Estado</th>
+        <th>Acciones</th>
+    </tr>
+    <% arregloBibliotecas.forEach( (objeto)=>{ %>
+        <tr>
+            <td><%= objeto.nombre %></td>
+            <td><%= objeto.direccion %></td>
+            <td><%= objeto.categoria_libros %></td>
+            <td><%= objeto.numero_clientes %></td>
+            <td><%= objeto.estado %></td>
+            <td>
+                <a href="/biblioteca/vista/editar/<%= objeto.id %>">
+                    <button>Editar</button>
+                </a>
+
+                <form action="/biblioteca/eliminarDesdeVista/<%= objeto.id %>"
+                      method="POST">
+
+                    <button type="submit">Eliminar</button>
+                </form>
+            </td>
+        </tr>
+    <% } ) %>
+
+</table>
+<%- include('../compartido/funcionalidad-general/funcionalidad-general-component')%>
